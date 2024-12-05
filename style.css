@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    color:black;
+    margin: 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin-bottom: 15%;
+    background-color: rgb(233, 230, 230);
+    height: 450px;
+    margin-top: 0;
+}
+#about{
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 30px;
+    width: 600px;
+}
+#login{
+    justify-content: center;
+    align-items: center;
+    border: black solid 1px;
+    margin-right: 15%;
+    margin-left: 30px;
+    width:fit-content;
+    height: 250px;
+    border-radius: 5px;
+    background-color: white;
+}
+h2{
+    color: rgb(33, 93, 213);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.help{
+    margin-top: 10px;
+    font-size: 24px;
+    padding-right: 60px;
+}
+input{
+    display: block;
+    margin: 10px;
+    border: black solid 2px;
+    border-radius: 5px;
+    width:280px;
+    height:35px;
+    justify-self: center;
+}
+button{
+    display: block;
+    width: 280px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 8px;
+    color:white;
+    background-color: rgb(33, 93, 213);
+    justify-self: center;
+}
+.forgot{
+    display: block;
+   justify-self: center;
+   color: rgb(33, 93, 213);
+    margin-bottom: 10px;
+}
+.create{
+    background-color: rgb(4, 163, 4);
+    justify-self: center;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+}
+.page{
+    margin-top: 50px;
+    font-size: 12px;
+    justify-self: center;
+}
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
